@@ -1,0 +1,20 @@
+{
+  "name": "backend-course-2025-5",
+  "version": "1.0.0",
+  "description": "Кешуючий проксі-сервер",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Ваше Ім'я",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^14.0.2",
+    "superagent": "^10.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
